@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <script type="text/javascript" src='js/jquery-1.7.2.min.js'></script>
+        <script type="text/javascript" src="js/xml.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript">
+           $(document).ready(function() {
+                var e = $('#buttons');
+                var win_height = $(window).height();
+                var e_height = e.height();
+                e.css('margin-top', ((win_height - (e_height*1))/25));
+            });
+        </script>
+    </head>
+    <body>
+        <div style="text-align: center; color: white;" id="buttons">
+                <ul id="videos">
+                    <li><iframe width="420" height="315" src="http://www.youtube.com/embed/33oEbGUngOs" frameborder="0" allowfullscreen></iframe></li>
+                    <li><iframe width="420" height="315" src="http://www.youtube.com/embed/ERSIQ_lk7FE" frameborder="0" allowfullscreen></iframe></li>
+                    <li><iframe width="420" height="315" src="http://www.youtube.com/embed/polbz4U6oHk" frameborder="0" allowfullscreen></iframe></li>
+                    <li><iframe width="420" height="315" src="http://www.youtube.com/embed/of_8vx51jVc" frameborder="0" allowfullscreen></iframe></li>
+                </ul>
+        </div>
+    </body>
+</html>

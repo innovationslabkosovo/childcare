@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title> Child Care </title>
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src='js/jquery-1.7.2.min.js'></script>
+		<script type="text/javascript" src="js/xml.js"></script>
+		<script type="text/javascript">
+		   $(document).ready(function() {
+				var e = $('#buttons');
+				var win_height = $(window).height();
+				var e_height = e.height();
+				e.css('margin-top', ((win_height - (e_height*1))/2));
+			});
+		</script>
+	</head>
+		<body>
+			<div style="text-align: center; color: white;" id="buttons">
+				<img src="images/logo.png"\><br />
+				<p><br />
+				<!-- <a href="english.html?lang=english">English Version</a><br> -->
+				<a class="button" href="shqip.html?lang=shqip">Shqip</a><br>
+				<a class="button" href="serbian.html?lang=serbian">Srbski</a><br>
+			</div>
+		</body>
+</html>

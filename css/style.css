@@ -1,0 +1,39 @@
+body {
+	/*background: url("images/bg_loop2.png");*/
+  font-family: 'Calibri', Verdana, Arial, sans-serif;
+}
+
+a.button {
+	text-align: center;
+	color: #918467;
+	text-decoration: none;
+	background: url('images/off-1.png') repeat-x 50% 50% transparent;
+	width: 245px;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 0.5em 0;
+	letter-spacing: 1px;
+	font-size: 18px;
+	margin:3px;
+}
+
+a.button:hover {
+	background: url('images/on-1.png') repeat-x 50% 50% transparent;
+}
+
+ul#videos {
+    display:inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h3 {
+    font-family: 'Calibri', Verdana, Arial, sans-serif;
+    color: #918467 !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.element.style {
+    margin-top: 250px !important;  
+}

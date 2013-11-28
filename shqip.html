@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<script type="text/javascript" src='js/jquery-1.7.2.min.js'></script>
+		<script type="text/javascript" src="js/xml.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript">
+		   $(document).ready(function() {
+				var e = $('#buttons');
+				var win_height = $(window).height();
+				var e_height = e.height();
+				e.css('margin-top', ((win_height - (e_height*1))/2));
+			});
+		</script>
+
+		</head>
+		<body>
+			<div style="text-align: center; color: white;" id="buttons">
+				<h3>Zgjidh grupmosh&euml;n:</h3>
+				<a class="button" href="output.html?age=zero_to_one"  onclick="location.href=this.href+'&lang='+getUrlVars()['lang'];return false;">0-1 Muajsh</a><br>
+				<a class="button" href="output.html?age=one_to_six"  onclick="location.href=this.href+'&lang='+getUrlVars()['lang'];return false;">1-6 Muajsh</a><br>
+				<a class="button" href="output.html?age=six_to_twelve"  onclick="location.href=this.href+'&lang='+getUrlVars()['lang'];return false;">6-12 Muajsh</a><br>
+				<a class="button" href="output.html?age=one_to_three"  onclick="location.href=this.href+'&lang='+getUrlVars()['lang'];return false;">1-3 Vjeç</a><br>
+				<a class="button" href="output.html?age=three_to_five"  onclick="location.href=this.href+'&lang='+getUrlVars()['lang'];return false;">3-5 Vjeç</a><br>
+				<a class="button" href="question.html?age=general_advice"  onclick="location.href=this.href+'&lang='+getUrlVars()['lang'];return false;"><span style="margin-left:20px;">Këshilla Gjenerale</span></a><br>
+				<a class="button" href="videos.html">P&euml;rralla</a>
+			</div>
+		</body>
+</html>
